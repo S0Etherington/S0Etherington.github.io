@@ -452,6 +452,33 @@ section {
   background-color: #0563bb;
 }
 
+.skillImage {
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  margin: 0px 7px 0px 5px;
+}
+
+#skillRow1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 15px 0px;
+  width: 100%;
+}
+
+#skillRow2 {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 0px 0px;
+  width: 100%;
+}
+
+.skillHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
